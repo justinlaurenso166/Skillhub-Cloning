@@ -1,8 +1,8 @@
 <template>
     <div>
         <section class="mt-14">
-            <div class="flex flex-row-reverse gap-16 pt-10">
-                <div class="w-1/2 pt-10 px-8">
+            <div class="flex flex-col md:flex-row-reverse gap-16 pt-10">
+                <div class="w-full md:w-1/2 pt-10 px-8">
                     <div class="flex flex-col gap-5 mt-3">
                         <h1 class="font-semibold text-5xl">Over 1M+ Students</h1>
                         <h1 class="font-semibold text-5xl">get's job</h1>
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-1/2">
+                <div class="w-full md:w-1/2">
                     <img src="@/assets/2.png" alt="">
                 </div>
             </div>

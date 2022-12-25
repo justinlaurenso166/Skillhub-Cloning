@@ -1,13 +1,13 @@
 <template>
     <div>
         <header>
-            <div class="flex justify-between gap-10 items-center py-8 px-4">
+            <div class="flex flex-col md:flex-row justify-between gap-10 items-center py-8 px-4">
                 <div class="logo">
                     <NuxtLink>
                         <img src="@/assets/logo.png">
                     </NuxtLink>
                 </div>
-                <div class="flex gap-14 text-lg font-light">
+                <div class="flex flex-col md:flex-row gap-14 text-lg font-light text-center md:text-left">
                     <div class="nav-link hover:text-[#3fba96]">
                         <NuxtLink to="#">
                             About Us

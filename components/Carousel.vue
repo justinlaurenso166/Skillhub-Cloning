@@ -2,11 +2,16 @@
     let sliderContainer = ref()
     let slider = ref()
     let cards = ref()
-    let elementsToShow = ref(3)
+    let elementsToShow = ref()
     let sliderContainerWidth = ref()
     let cardWidth = ref()
 
     const carousel = ()=>{
+        if(document.body.clientWidth < 640){
+            elementsToShow.value = 1
+        }else{
+            elementsToShow.value = 3
+        }
         sliderContainer.value = document.getElementById('sliderContainer')
         slider.value = document.getElementById('slider')
         cards.value = slider.value.getElementsByTagName('li')

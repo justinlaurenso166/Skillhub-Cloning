@@ -1,8 +1,8 @@
 <template>
     <div>
         <section class="mt-14">
-            <div class="flex flex-row">
-                <div class="w-1/2 pt-10 px-8">
+            <div class="flex flex-col md:flex-row gap-20 md:gap-0">
+                <div class="w-full md:w-1/2 pt-10 px-8">
                     <h3 class="text-[#3fba96] text-2xl font-normal">Grow yourself with us</h3>
                     <div class="flex flex-col gap-3 mt-3">
                         <h1 class="font-semibold text-6xl">Grow your skill &</h1>
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-1/2">
+                <div class="w-full md:w-1/2">
                     <img src="@/assets/1.png" alt="">
                 </div>
             </div>
